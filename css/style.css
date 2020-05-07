@@ -1,0 +1,280 @@
+/* general style  #30B576 */
+* {padding: 0;margin: 0;box-sizing: border-box;}
+body {font-family: sans-serif;}
+.container {width: 1170px;margin: auto;}
+a {text-decoration: none;color: #fff;text-transform: capitalize;}
+h2,h3,h3,h4,h5,h6 {color: #777;text-transform: capitalize;}
+p,q {line-height: 1.7;color: #888;}
+button {cursor: pointer;}
+ul{list-style: none;}
+.clear {clear: both;}
+.text_center{text-align: center;}
+.bold{font-weight: bold;}
+.active {color: #30B576;}
+.btn {
+    background: none;
+    outline: none;
+    width: 170px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pd-y {padding-top: 60px;padding-bottom: 60px;}
+/* header */
+header {
+    background-image: url(../images/slider.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+.header-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-title {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-top: 4px solid #fff;
+    padding: 8px 3px;
+    border-bottom: 4px solid #fff;
+}
+.btn-header{
+    color:#fff;
+    border: 2px solid #fff;
+}
+/* nav */
+nav {
+    overflow: hidden;
+    background: #252F31;
+    color: #fff;
+}
+nav .nav-logo {
+    width: 30%;
+    float: left;
+    padding: 10px 0;
+    font-size: 25px;
+}
+nav .nav-list {
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+nav .nav-list li {
+    display: inline-block;
+}
+nav .nav-list li a {
+    display: block;
+    padding: 15px 10px 15px 10px;
+}
+nav .nav-list li a:hover {
+    color: #30B576;
+}
+/* features */
+.features-item {
+    float: left;
+    width: 30%;
+}
+.features-title {
+    padding-bottom: 25px;
+}
+/* about me */
+.about {
+    background: #eee;
+}
+.about-item-image {
+    width: 40%;
+    float: left;
+}
+.about-item-image img {
+    padding-bottom: 10px;
+    border: 0;
+    width: 100%;
+}
+.about-item-info {
+    width: 60%;
+    float: left;
+}
+.info-content {
+    margin: 25px 0 20px 40px;
+}
+.hobbies-item {
+    float: left;
+    width: 48%;
+    padding-left: 40px;
+    position: relative;
+    margin: 20px 5px;
+}
+.hobbies-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 13px -5px;
+    color: #2DCC70;
+}
+.hobbies-text {
+    width: 90%;
+}
+.hobbies-title,
+.progress-title, {
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/* skills */
+.skills-content,.myeducation-content,.portfolio-content,.about-hobbies-content ,.about-content,.features-content {
+    overflow: hidden;
+}
+.skills-item,.contacts-item,.myeducation-item {
+    float: left;
+    width: 50%;
+}
+.skills-title,.contacts-title,.myeducation-item-title,.exp-item-title,
+.resume-title,.portfolio-title,.testimonials-title,.about-item-title
+ {
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.skills-para,.contacts-para,.myeducation-item-para,.exp-item-para,.about-item-para,.resume-para ,.portfolio-para {
+    margin-bottom: 20px;
+}
+.btn-skills {
+    border: 3px solid #2DCC70;
+    color: #2DCC70;
+    font-size: 18px;
+}
+.progress {
+    margin-left: 50px;
+}
+.progress-item {
+    margin-bottom: 30px;
+}
+.progress-per {
+    width: 100%;
+    background-color: #eee;
+}
+.progress-green {
+    padding: 5px;
+    background-color: #2DCC70;
+    overflow: hidden;
+}
+.progress-green span {
+    color: #fff;
+    font-weight: bold;
+    float: right;
+}
+.progress83 {width: 83%;}
+.progress89 {width: 89%;}
+.progress90 {width: 90%;}
+.progress70{width: 70%;}
+/* Resume */
+.resume,.testimonials{background-color: #eee;}
+.btn-resume {
+    border: 3px solid #2DCC70;
+    color: #2DCC70;
+    width: 200px;
+    font-size: 16px;
+}
+/* */
+.exp{margin: 50px;}
+.exp-item{margin: 60px 0;}
+.exp-item-title{font-size:20px;}
+.exp hr{margin: 15px 0;}
+.exp .gpa{
+    background-color: #2DCC70;
+    color:#fff;
+    padding:5px;
+}
+/* testimonials */
+.testimonials-quote{
+    padding: 15px 0;
+    font:italic bold 18px/1.8 Arial, Tahoma;
+}
+.testimonials-title{
+    margin-top:20px;
+}
+.testimonials-list li{
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    background-color: none;
+    border: 3px solid #2DCC70;
+}
+.testimonials-list li.active{
+    background-color:  #2DCC70;
+}
+/* Portfolio */
+.portfolio-item{
+    width: 30%;
+    float:left;
+    border: 1px solid #eee;
+    margin: 20px 0;
+}
+.portfolio-item.mg-item{
+    margin-left:5%;
+    margin-right:5%;
+}
+.imago img{
+    width: 100%;
+    padding: 4px;
+}
+/* Contact Me */
+.contacts {
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.contacts form label {
+    display: block;
+    color: #D1D6DA;
+    margin: 20px 0 0 0;
+}
+.contacts form input[type="text"],.contacts form input[type="email"]{
+    display:block;
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.contacts form textarea {
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+.contacts form input[type="submit"] {
+    background-color: #191E22;
+    color: #FFF;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 10px;
+}
+footer{
+    overflow:hidden;
+    background-color: #191E22;
+}
+footer .Copyright{
+    float:left;
+    margin: 5px ;
+}
+footer .icon{
+    float: right;
+    background-color: #191E22;
+    color: #6A6E71;
+}
+footer .icon li{
+    display: inline-block;
+    font-size:18px ;
+    margin: 10px 1px;
+}
